@@ -1,4 +1,4 @@
-var utils = require("./utils");
+import utils from "./utils";
 
 var CPU = function (nes) {
   this.nes = nes;
@@ -2021,4 +2021,4 @@ OpData.prototype = {
   },
 };
 
-module.exports = CPU;
+export default CPU;
